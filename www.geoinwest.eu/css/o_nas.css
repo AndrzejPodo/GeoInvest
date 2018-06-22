@@ -1,0 +1,131 @@
+﻿@media (max-width:800px){
+.lines{
+        width: 650px;
+        height: 3px;
+        background: rgb(193,193,228);
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left:0;
+        transform:translateX(-50%);
+}
+#o_nas{
+    width:100%;
+    height:650px;
+    background-size:100%;
+    margin-bottom:0;
+    margin-left:50%;
+    transform:translateX(-50%);
+}
+#o_nas  #o_nas_txt{
+    width:40%;
+    margin-left:50px;
+    position:relative;
+    opacity:0;
+}
+#o_nas_txt p{
+    color:black;
+    font-size:15px;
+    text-justify:auto;
+    position:absolute;
+    width:320px;
+    top:100px;
+}
+#o_nas_txt h1{
+    color:black;
+    font-size:60px;
+    font-family:MoolBoran;
+    position:absolute;
+    top:38px;
+}
+#o_nas_txt h4{
+    color:black;
+    font-size:22px;
+    font-family:MoolBoran;
+    position:absolute;
+    top:30px;
+}
+#o_nas_txt a{
+    width:60px;
+    height:22px;
+    margin-left:50%;
+    transform:translateX(-50%);
+    margin-top:-36px;
+    position:absolute;
+    top: 620px;
+    left:110px;
+    color:black;
+    font-size:15px;
+    width:150px;
+    text-decoration:none;
+    text-align:center;
+}
+#o_nas_txt a:hover{
+    background:rgba(27, 27, 27,0.5);
+}}
+@media (min-width:800px){
+.lines{
+        width: 100%;
+        height: 3px;
+        min-width:1058px;
+        background: rgb(193,193,228);
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left:50%;
+        transform:translateX(-50%);
+}
+#o_nas{
+    width:100%;
+    height:650px;
+    min-width:1058px;
+    background-image: url('../img/o_nas-img.jpg');
+    background-size:100%;
+    margin-bottom:0;
+    margin-left:50%;
+    transform:translateX(-50%);
+}
+#o_nas  #o_nas_txt{
+    width:500px;
+    margin-left:50px;
+    position:relative;
+    opacity:0;
+}
+#o_nas_txt p{
+    color:white;
+    font-size:20px;
+    text-justify:auto;
+    position:absolute;
+    width:500px;
+    top:100px;
+}
+#o_nas_txt h1{
+    color:white;
+    font-size:60px;
+    font-family:MoolBoran;
+    position:absolute;
+    top:38px;
+}
+#o_nas_txt h4{
+    color:white;
+    font-size:22px;
+    font-family:MoolBoran;
+    position:absolute;
+    top:30px;
+}
+#o_nas_txt a{
+    width:60px;
+    height:22px;
+    margin-left:50%;
+    transform:translateX(-50%);
+    margin-top:-36px;
+    position:absolute;
+    top: 620px;
+    left:110px;
+    color:white;
+    font-size:15px;
+    width:150px;
+    text-decoration:none;
+    text-align:center;
+}
+#o_nas_txt a:hover{
+    background:rgba(27, 27, 27,0.5);
+}}
