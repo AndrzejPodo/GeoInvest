@@ -1,0 +1,64 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #strona-glowan{
+        justify-content: center;
+    }
+    #sekcja-tytulowa{
+        /* width: 100%; */
+        height: 100vh;
+        flex-direction: column;
+    }
+    #sekcja-onas{
+        /* width: 100%; */
+        height: 100vh;
+    }
+    #sekcja-galerii{
+        /* width: 100%; */
+        height: 100vh;
+    }
+    #sekcja-z-opisami{
+        /* width: 100%; */
+        height: 100vh;
+    }
+    #sekcja-dol-strony{
+        /* width: 100%; */
+        height: 100vh;
+    }
+
+    #tytulowa-1{
+        /* width: 100%; */
+        height: 25vh;
+    }
+    #tytulowa-2{
+        /* width: 100%; */
+        height: 25vh;   
+    }
+    #tytulowa-3{
+        /* width: 100%; */
+        height: 25vh;
+    }
+    #tytulowa-4{
+        /* width: 100%; */
+        height: 25vh;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
