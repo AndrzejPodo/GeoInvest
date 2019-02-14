@@ -16,6 +16,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="animations.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDr9j7TouC2mgICyZAmmNjjNGGq9zPqTPs"></script>
+    <script type="text/javascript" src="gmap3.min.js"></script>
+    <script src="map.js"></script>
 
     <div class="container my-container d-md-none">
         <div class="row my-row">
@@ -85,7 +88,7 @@
                     <img src="img/dach_1.png" class="img-fluid">
             </div>
 
-            <div class="tile col-md d-flex justify-content-center animated">
+            <div id="mapButton" class="tile col-md d-flex justify-content-center animated">
                 <p>MAPA</p>
                 <div class="photo-container d-flex justify-content-center fade">
                     <img src="img/map_logo.png" class="img-fluid my-img">
@@ -140,24 +143,25 @@
             </div>
         </div>
     </div>
-    <!-- Trigger the Modal
-    <img id="myImg" src="img/z7.png" alt="Snow" style="width:100%;max-width:300px"> -->
 
     <!-- The Modal -->
     <div id="myModal" class="modal">
 
-    <!-- The Close Button -->
-    <span class="close">&times;</span>
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
 
-    <!-- Modal Content (The Image) -->
-    <img class="modal-content" id="img01">
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01">
 
-    <!-- Modal Caption (Image Text) -->
-    <div id="caption"></div>
-</div> 
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+    </div> 
+
+    <div id="mapLine" class="line container"></div>
+
+    <div id="mapa" class="container my-container"></div>
 
     <div class="line container"></div>
-
 
 </body>
 </html>
