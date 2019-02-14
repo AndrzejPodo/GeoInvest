@@ -1,41 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://unpkg.com/bootstrap@4.2.1/dist/css/bootstrap-grid.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="tile col-lg">asadasd</div>
-            <div class="tile col-lg">asadasd</div>
-            <div class="tile col-lg">asadasd</div>
-            <div class="tile col-lg">asadasd</div>
-        </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="animations.js"></script>
 
-        <div class="row">
-            <div class="tile col-lg">asadasd</div>
-            <div class="tile col-lg">asadasd</div>
-            <div class="tile col-lg">asadasd</div>
-            <div class="tile col-lg">asadasd</div>
-        </div>
-        <div class="row d-md-none d-lg-flex">
-            <div class="tile col-lg">2asadasd</div>
-            <div class="tile col-lg">2asadasd</div>
-            <div class="tile col-lg">2asadasd</div>
-            <div class="tile col-lg">2asadasd</div>
-        </div>
+    <div class="container my-container d-md-none">
+        <div class="row my-row">
 
+        </div>
+        <div class="row my-row">
+            
+        </div>
+        <div class="row my-row">
+
+        </div>
+        <div class="row my-row">
+            
+        </div>
+        <div class="row my-row">
+            
+        </div>
+    </div>
+
+    <div class="container my-container d-none d-md-block">
         <div class="row">
-            <div class="col">
-                <h1>fasfaffs</h1>
-                <p>dsfsdffsd</p>
+            <div class="tile col-md">
+                    <img src="img/drabina.png" class="img-fluid">
+            </div>
+
+            <div class="tile col-md d-flex justify-content-center animated">
+                <p>KONTAKT</p>    
+                <div class="photo-container d-flex justify-content-center fade">
+                        <img src="img/contact_logo.png" class="img-fluid my-img">
+                </div>
+                    
+            </div>
+            
+            <div class="tile col-md">
+                    <img src="img/dach_2.png" class="img-fluid">
+            </div>
+
+            <div class="tile col-md d-flex justify-content-center animated">
+                <p>INFO</p>
+                <div class="photo-container d-flex justify-content-center fade">
+                    <img src="img/info_logo.png" class="img-fluid my-img">
+                </div>
             </div>
         </div>
+
+        <div class="row">
+            <div class="tile col-md-9 tile-grey">
+                <img src="img/logo.png" class="img-fluid">
+            </div>
+            <div class="tile col-md-3">
+                <img src="img/widok.png" class="img-fluid">
+            </div>
+        </div>
+        <div class="row">
+            <div class="tile col-md">
+                    <img src="img/sprzet.png" class="img-fluid">
+            </div>
+
+            <div class="tile col-md d-flex justify-content-center animated">
+                <p>GALERIA</p>
+                <div class="photo-container d-flex justify-content-center fade">
+                    <img src="img/gallery_logo.png" class="img-fluid my-img">
+                </div>
+            </div>
+
+            <div class="tile col-md">
+                    <img src="img/dach_1.png" class="img-fluid">
+            </div>
+
+            <div class="tile col-md d-flex justify-content-center animated">
+                <p>MAPA</p>
+                <div class="photo-container d-flex justify-content-center fade">
+                    <img src="img/map_logo.png" class="img-fluid my-img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="line container"></div>
+
+    <div div class="container my-container d-none d-md-block" style="padding: 0; position: relative;">
+            <h4 style="position: absolute;">Witamy na stronie internetowej Geoinwest.eu Sp. z o.o.</h4>
+            <p style="position: absolute;">
+                    GEOINWEST.EU Sp. z o.o. posiada wieloletnie doświadczenie w branży geodezyjnej zdobyte m.in. w Polsce, Holandii, Irlandii, Francji, Słowacji i na Ukrainie.
+                    Zrealizowaliśmy wiele dużych projektów w sektorze przemysłowym, energetycznym, budownictwa kubaturowego, infrastruktury drogowej i lotniskowej.
+                    Do pracy używamy najdokładniejszych instrumentów pomiarowych marki Trimble oraz licencjonowanego oprogramowania Bentley MicroStation i PowerSurvey.
+                    Posiadamy niezbędną wiedzę i uprawnienia do wykonania zleceń w sposób kompleksowy.
+            </p>
+            <img src="img/stadion.png" class="img-fluid">
     </div>
 </body>
 </html>

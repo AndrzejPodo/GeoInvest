@@ -1,11 +1,74 @@
-.tile {
-    background: red;
-    border: 1px solid black;
-    height: 285px;
+.my-container {
+    width: 800px;
+    margin-top: 50px;
 }
 
-@media (max-width: 1200px) {
-   .tile {
-       height: 240px;
-   } 
+.my-img {
+    max-width:50%; 
+    max-height: 50%; 
+    margin-top: 25%;
+    position: absolute;
+}
+
+.photo-container{
+    width: 100%;
+    height: 100%;
+}
+
+.tile {
+    background: rgb(104,173,213);
+    height: 200px;
+    width: 200px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.tile-grey {
+    background: grey;
+}
+
+.line {
+    border: 2px rgb(193, 193, 228) solid;
+    width: 860px;
+    margin-top: 50px;
+    border-radius: 3px;
+}
+@media (max-width: 960px) {
+    .my-container {
+        width: 600px;
+        margin-top: 50px;
+    }
+    .tile {
+        background: rgb(104,173,213);
+        height: 150px;
+        width: 150px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+    .tile-grey {
+        background: grey;
+    }
+
+    .line {
+        border: 2px rgb(193, 193, 228) solid;
+        width: 640px;
+        margin-top:50 px;
+        border-radius: 3px;
+    }
+}
+
+@media (max-width: 767px) {
+    .my-container {
+        width: 100vw;
+        margin-top: 50px;
+    }
+    .my-row {
+        background: red;
+        border: 1px solid black;
+        height: 100px;
+    }
 }
