@@ -5,6 +5,13 @@ $(document).ready(function(){
         $(this).find('p').animate({fontSize: "0px"})
     })
 
+    $('#infoButton').click(function(){
+        console.log("INFO");
+        $('html, body').animate({
+            scrollTop: ($('#firtLine').offset().top)
+        },1000);
+    });
+
     $(window).scroll(function(){
         if($(window).scrollTop() > innerHeight/4 && innerWidth > 960){
             $('#onas-h4').animate({marginLeft:"50px", opacity:1},1500);
