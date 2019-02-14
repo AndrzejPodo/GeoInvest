@@ -8,7 +8,7 @@ $(document).ready(function(){
     $('#infoButton').click(function(){
         console.log("INFO");
         $('html, body').animate({
-            scrollTop: ($('#firtLine').offset().top)
+            scrollTop: ($('#offerLine').offset().top)
         },1000);
     });
 

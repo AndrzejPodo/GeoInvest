@@ -33,6 +33,11 @@
     /* width: 1200px; */
     /* border: 3px red solid; */
 }
+.offer-container{
+    width: 1200px;
+    margin-top: 50px;
+    /* border: 3px red solid; */
+}
 
 .gallery-div {
     width: 200px;
@@ -78,6 +83,17 @@
     margin-top: 50px;
     border-radius: 3px;
 }
+
+.offer-div{
+    /* width:400px;
+    height:100px; */
+    height: 100px;
+}
+
+.offer-div p{
+    font-size: x-large;
+}
+
 @media (max-width: 960px) {
     #mapa{
         width: 600px;
@@ -125,6 +141,10 @@
         width: 640px;
         margin-top:50 px;
         border-radius: 3px;
+    }
+
+    .offer-div p{
+        font-size: medium;
     }
 }
 
