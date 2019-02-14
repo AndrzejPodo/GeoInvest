@@ -26,6 +26,13 @@ $(document).ready(function(){
         },1000);
     });
 
+    $('#kontaktButton').click(function(){
+        console.log("INFO");
+        $('html, body').animate({
+            scrollTop: ($('#kontaktLine').offset().top)
+        },1000);
+    });
+
     $(window).scroll(function(){
         if($(window).scrollTop() > innerHeight/4 && innerWidth > 960){
             $('#onas-h4').animate({marginLeft:"50px", opacity:1},1500);
