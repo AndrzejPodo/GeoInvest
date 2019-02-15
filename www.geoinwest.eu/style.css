@@ -28,6 +28,10 @@
     margin-top:150px;
 }
 
+.clicable{
+    cursor: pointer;
+}
+
 .my-gallery-container{
     margin-top: 50px;
     /* width: 1200px; */
@@ -82,6 +86,28 @@
     width: 860px;
     margin-top: 50px;
     border-radius: 3px;
+}
+
+.contact-div{
+    height: 75px;
+    vertical-align: middle;
+    /* border: 3px red solid; */
+}
+
+.contact-div p{ 
+    font-size: large;
+}
+.contact-div a{ 
+    font-size: large;
+}
+
+.contact-div img{ 
+    margin-top: 5px;
+}
+.contact-container{
+    width: 800px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .offer-div{
@@ -145,6 +171,29 @@
 
     .offer-div p{
         font-size: medium;
+    }
+
+    .contact-div{
+        height: 90px;
+        /* border: 3px red solid; */
+    }
+    
+    .contact-div p{
+        margin-top: 5px;
+        margin-left: 10px; 
+        font-size: medium;
+    }
+
+    .contact-div a{
+        margin-top: 5px;
+        margin-left: 10px; 
+        font-size: medium;
+    }
+
+    .contact-div img{
+        margin-top:5px;
+        min-width: 50px;
+        min-height: 50px;
     }
 }
 
