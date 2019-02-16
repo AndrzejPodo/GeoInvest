@@ -22,19 +22,19 @@
     <script src="js/map.js"></script>
 
     <div class="container my-container d-md-none">
-        <div class="row my-row d-flex justify-content-center">
+        <div class="row my-row d-flex justify-content-center" style="background: rgb(31,45,59);">
                 <img src="img/logo.png" class="img-fluid">
         </div>
-        <div class="row my-row d-flex justify-content-center">
+        <div id="kontaktButton" class="row my-row d-flex justify-content-center clicable">
                 <img src="img/contact_logo2.png" class="img-fluid">
         </div>
-        <div class="row my-row d-flex justify-content-center">
+        <div id="infoButton" class="row my-row d-flex justify-content-center clicable">
                 <img src="img/info_logo2.png" class="img-fluid">
         </div>
-        <div class="row my-row d-flex justify-content-center">
+        <div id="galleryButton" class="row my-row d-flex justify-content-center clicable">
                 <img src="img/gallery_logo2.png" class="img-fluid">
         </div>
-        <div class="row my-row d-flex justify-content-center">
+        <div id="mapButton" class="row my-row d-flex justify-content-center clicable">
                 <img src="img/map_logo2.png" class="img-fluid">
         </div>
     </div>
@@ -98,7 +98,7 @@
         </div>
     </div>
 
-    <div id="firtLine" class="line container"></div>
+    <div id="firtLine" class="line container d-none d-md-block"></div>
 
     <div id="onas-container" class="container my-container d-none d-md-block" style="padding:0px">
             <h4 id='onas-h4'>Witamy na stronie internetowej Geoinwest.eu Sp. z o.o.</h4>
@@ -113,66 +113,161 @@
 
     <div id="offerLine" class="line container"></div>
 
-    <div class="container offer-container">
-        <h1>Oferta</h1>
-        <div class="row" style="margin-top:30px"> 
-            <div class="col-md-1 offer-div">
+    <div class="container offer-container  d-md-none">
+        <row class="row">
+            <div class="col-2 offer-div">
                 <img src="img/offer.png" class="img-fluid">
             </div>
-            <div class="col-md-5 offer-div">
+            <div class="col-10 offer-div">
                 <p>Opracowanie geodezyjne do celów prawnych</p>
             </div>
-            <div class="col-md-1 offer-div">
+        </row>
+        <row class="row">
+            <div class="col-2 offer-div">
+                <img src="img/offer.png" class="img-fluid">
+            </div>
+            <div class="col-10 offer-div">
+                <p>Inwentaryzacje architektoiczne z użciem fototachimetru skanujacego</p>
+            </div>
+        </row>
+        <row class="row">
+            <div class="col-2 offer-div">
+                <img src="img/offer.png" class="img-fluid">
+            </div>
+            <div class="col-10 offer-div">
+                <p>Geodezyjna obsluga inwestycji budowlanych</p>
+            </div>
+        </row>
+        <row class="row">
+            <div class="col-2 offer-div">
+                <img src="img/offer.png" class="img-fluid">
+            </div>
+            <div class="col-10 offer-div">
+                <p>Pomiary sytuacjyno-wysokosciowe i sporządzanie map</p>
+            </div>
+        </row>
+        <row class="row">
+            <div class="col-2 offer-div">
+                <img src="img/offer.png" class="img-fluid">
+            </div>
+            <div class="col-10 offer-div">
+                <p>Geodezja przemysłowa</p>
+            </div>
+        </row>
+        <row class="row">
+            <div class="col-2 offer-div">
+                <img src="img/offer.png" class="img-fluid">
+            </div>
+            <div class="col-10 offer-div">
+                <p>Pomiary GPS</p>
+            </div>
+        </row>
+    </div>
+
+    <div class="container offer-container d-none d-md-block">
+        <h1>Oferta</h1>
+        <div class="row" style="margin-top:30px"> 
+            <div class="col-md-1 offer-div contact-text-div">
+                <img src="img/offer.png" class="img-fluid">
+            </div>
+            <div class="col-md-5 offer-div contact-text-div">
+                <p>Opracowanie geodezyjne do celów prawnych</p>
+            </div>
+            <div class="col-md-1 offer-div contact-text-div">
                     <img src="img/offer.png" class="img-fluid">
             </div>
-            <div class="col-md-5 offer-div">
+            <div class="col-md-5 offer-div contact-text-div">
                 <p>Inwentaryzacje architektoiczne z użciem fototachimetru skanujacego</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-1 offer-div">
+            <div class="col-md-1 offer-div contact-text-div">
                     <img src="img/offer.png" class="img-fluid">
             </div>
-            <div class="col-md-5 offer-div">
+            <div class="col-md-5 offer-div contact-text-div">
                 <p>Geodezyjna obsluga inwestycji budowlanych</p>
             </div>
-            <div class="col-md-1 offer-div">
+            <div class="col-md-1 offer-div contact-text-div">
                     <img src="img/offer.png" class="img-fluid">
             </div>
-            <div class="col-md-5 offer-div">
+            <div class="col-md-5 offer-div contact-text-div">
                 <p>Pomiary sytuacjyno-wysokosciowe i sporządzanie map</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-1 offer-div">
+            <div class="col-md-1 offer-div contact-text-div">
                     <img src="img/offer.png" class="img-fluid">
             </div>
-            <div class="col-md-5 offer-div">
+            <div class="col-md-5 offer-div contact-text-div">
                 <p>Geodezja przemysłowa<p>
             </div>
-            <div class="col-md-1 offer-div">
+            <div class="col-md-1 offer-div contact-text-div">
                     <img src="img/offer.png" class="img-fluid">
             </div>
-            <div class="col-md-5 offer-div">
+            <div class="col-md-5 offer-div contact-text-div">
                 <p>Pomiary sytuacjyno-wysokosciowe i sporządzanie map</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-1 offer-div">
+            <div class="col-md-1 offer-div contact-text-div">
                     <img src="img/offer.png" class="img-fluid">
             </div>
-            <div class="col-md-5 offer-div">
+            <div class="col-md-5 offer-div contact-text-div">
                 <p>Pomiary GPS</p>
             </div>
-            <div class="col-md-1 offer-div">
+            <div class="col-md-1 offer-div contact-text-div">
             </div>
-            <div class="col-md-5 offer-div">
+            <div class="col-md-5 offer-div contact-text-div">
                 <h5></h5>
             </div>
         </div>
     </div>
 
     <div id="galleryLine" class="line container"></div>
+
+    <div class="container my-gallery-container  d-md-none">
+        <div class="row">
+            <div class="col gallery-div">
+                <img id="myImg" src="img/z1.png" class="img-fluid galleryImg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col gallery-div">
+                <img id="myImg" src="img/z2.png" class="img-fluid galleryImg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col gallery-div">
+                <img id="myImg" src="img/z3.png" class="img-fluid galleryImg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col gallery-div">
+                <img id="myImg" src="img/z4.png" class="img-fluid galleryImg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col gallery-div">
+                <img id="myImg" src="img/z5.png" class="img-fluid galleryImg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col gallery-div">
+                <img id="myImg" src="img/z6.png" class="img-fluid galleryImg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col gallery-div">
+                <img id="myImg" src="img/z7.png" class="img-fluid galleryImg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col gallery-div">
+                <img id="myImg" src="img/z1.png" class="img-fluid galleryImg">
+            </div>
+        </div>
+    </div>
+
 
     <div class="container my-gallery-container d-none d-md-block">
         <div class="row">
@@ -223,9 +318,53 @@
 
     <div id="mapa" class="container my-container"></div>
 
-    <div id="kontaktLine"class="line container" style="margin-top:100px"></div>
+    <div id="kontaktLine"class="line container" style="margin-top:50px"></div>
 
-    <div class="container contact-container">
+    <div class="container contact-container d-md-none">
+            <div class="row">
+                    <div class="col-2 contact-div contact-text-div">
+                        <img src="img/map_logo2.png" class="img-fluid">
+                    </div>
+                    <div class="col-10 contact-div contact-text-div">
+                        <p>Geoinwest.eu Sp. z.o.o. <br/> ul. Partyzantów 1, <br/> 34-220 Maków Podhalański</p>
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col-2 contact-div contact-text-div">
+                        <img src="img/info_logo2.png" class="img-fluid">
+                    </div>
+                    <div class="col-10 contact-div contact-text-div">
+                            <p>NIP 5521713780, <br/> REGON 122509025, KRS 0000410625</p>
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col-2 contact-div contact-text-div">
+                        <img src="img/contact_logo2.png" class="img-fluid">
+                    </div>
+                    <div class="col-10 contact-div contact-text-div">
+                        <p>biuro@geoinwest.eu</p>
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col-2 contact-div contact-text-div">
+                        <img src="img/tel_logo.png" class="img-fluid">
+                    </div>
+                    <div class="col-10 contact-div contact-text-div">
+                        <p>+48 502 457 531, <br/>+48 668 899 017</p>
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col-2 contact-div contact-text-div">
+                        <img src="img/fb_logo.png" class="img-fluid">
+                    </div>
+                    <div class="col-10 contact-div contact-text-div">
+                        <a href="https://www.facebook.com/Geoinwesteu-125924867495059/">https://www.facebook.com/Geoinwesteu-125924867495059/</a>
+                    </div>
+            </div>
+
+    </div>
+
+    <div class="container contact-container d-none d-md-block">
         <div class="row">
             <div class="col-md-1 contact-div">
                 <img src="img/map_logo2.png" class="img-fluid">

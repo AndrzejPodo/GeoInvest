@@ -1,20 +1,92 @@
 @media (max-width: 767px) {
+    .line{
+        border: 2px rgb(193, 193, 228) solid;
+        width: 90vw;
+        margin-top: 30px;
+        border-radius: 3px;
+    }
+    
+    #mapa {
+        margin-top: 50px;
+        width: 85vw;
+    }
+
+    #myModal {
+        max-width: 100vw;
+    }
+
+    .my-gallery-container{
+        width: 100vw;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .gallery-div{
+        padding-left: 7.5vw;
+        padding-right: 7.5vw;
+    }
+
     .my-container {
         margin-top: 50px;
-        border: 1px solid red;
+        max-width: 100vw;
+        padding-left: 0;
+        padding-right: 0;
     }
     .my-row {
         background: rgb(104,173,213);
-        /* border: 1px solid rgb(104,173,213); */
-        border: 1px solid red;
+        border: 1px solid rgb(104,173,213);
         border-radius: 5px; 
         height: 100px;
-        width: 300px;
-        margin-left: 15px;
+        width: 85vw;
+        margin-left: 7.5vw;
         margin-top: 5px;
     }
 
     .my-row img{
         max-height: 100%;
+    }
+
+    .offer-container{
+        width: 100vw;
+        margin-top: 30px;
+        padding: 0;
+    }
+
+    .offer-container row{
+        width: 100vw;
+        margin: 0;
+        
+    }
+    
+    .contact-text-div{
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+    }
+
+    .contact-div p{
+        font-size: medium;
+    }
+
+    .contact-div p{
+        font-size: medium;
+    }
+
+    /* .contact-div img{
+        margin-top: 3vh;
+    } */
+
+    /* .offer-div img{
+        margin-top: 5vh;
+    } */
+
+    /* .offer-div p{
+        font-size: medium;
+        margin-top: 4vh;
+    } */
+
+    .contact-container{
+        width: 100vw;
+        margin-top: 50px;
     }
 }
