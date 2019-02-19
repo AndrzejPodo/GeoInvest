@@ -1,4 +1,24 @@
 @media (max-width: 767px) {
+
+    .Aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .Aligner-item {
+        max-width: 50%;
+      }
+      
+      .Aligner-item--top {
+        align-self: flex-start;
+      }
+      
+      .Aligner-item--bottom {
+        align-self: flex-end;
+      }
+
+
     .line{
         border: 2px rgb(193, 193, 228) solid;
         width: 90vw;
@@ -21,6 +41,11 @@
         padding-right: 0;
     }
     
+    .my-gallery-container h4{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
     .gallery-div{
         padding-left: 7.5vw;
         padding-right: 7.5vw;
@@ -58,6 +83,11 @@
         
     }
     
+    .offer-container h4{
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+
     .contact-text-div{
         display: flex;
         align-items: center;
@@ -68,7 +98,7 @@
         font-size: medium;
     }
 
-    .contact-div p{
+    .contact-div a{
         font-size: medium;
     }
 
