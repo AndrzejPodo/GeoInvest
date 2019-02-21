@@ -1,24 +1,5 @@
 @media (max-width: 767px) {
 
-    .Aligner {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      
-      .Aligner-item {
-        max-width: 50%;
-      }
-      
-      .Aligner-item--top {
-        align-self: flex-start;
-      }
-      
-      .Aligner-item--bottom {
-        align-self: flex-end;
-      }
-
-
     .line{
         border: 2px rgb(193, 193, 228) solid;
         width: 90vw;
@@ -91,6 +72,7 @@
     .contact-text-div{
         display: flex;
         align-items: center;
+        word-wrap: break-word;
         /* justify-content: center; */
     }
 
@@ -100,6 +82,7 @@
 
     .contact-div a{
         font-size: medium;
+        max-width: 70vw;
     }
 
     /* .contact-div img{
