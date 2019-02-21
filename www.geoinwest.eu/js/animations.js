@@ -5,29 +5,29 @@ $(document).ready(function(){
         $(this).find('p').animate({fontSize: "0px"})
     })
 
-    $('#infoButton').click(function(){
+    $('.infoButton').click(function(){
         console.log("INFO");
         $('html, body').animate({
             scrollTop: ($('#offerLine').offset().top)
         },1000);
     });
 
-    $('#galleryButton').click(function(){
-        console.log("INFO");
+    $('.galleryButton').click(function(){
+        console.log("GALLERY");
         $('html, body').animate({
             scrollTop: ($('#galleryLine').offset().top)
         },1000);
     });
 
-    $('#mapButton').click(function(){
-        console.log("INFO");
+    $('.mapButton').click(function(){
+        console.log("MAP");
         $('html, body').animate({
             scrollTop: ($('#mapLine').offset().top)
         },1000);
     });
 
-    $('#kontaktButton').click(function(){
-        console.log("INFO");
+    $('.kontaktButton').click(function(){
+        console.log("KONTAKT");
         $('html, body').animate({
             scrollTop: ($('#kontaktLine').offset().top)
         },1000);
