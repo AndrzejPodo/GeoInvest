@@ -78,6 +78,7 @@
 
     .contact-div p{
         font-size: medium;
+        max-width: 70vw;
     }
 
     .contact-div a{
