@@ -1,5 +1,7 @@
 @media (max-width: 767px) {
-
+body{
+    width:100vw;
+}
     .line{
         border: 2px rgb(193, 193, 228) solid;
         width: 90vw;
