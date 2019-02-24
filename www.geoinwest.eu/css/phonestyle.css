@@ -104,6 +104,7 @@
     .contact-div a{
         font-size: medium;
         max-width: 60vw;
+        margin: 0;
     }
 
     .contact-div img{
